@@ -10,5 +10,7 @@ import { NxWelcomeComponent } from './nx-welcome.component'
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'pet ' + '' + 'fasfa' + '' + '' + '' + 'safsfasf' + '' + '' + '' + '' + '' + '' + 'sfas' + '-clinic'
+  title = 'pet' + ' test test test ' + 'husky test' + ' test" ' + '' + '' + '                                    '
+
+  result = 12 + 4 + 15 + 33
 }
