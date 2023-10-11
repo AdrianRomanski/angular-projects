@@ -1,14 +1,14 @@
-import { Component } from '@angular/core';
-import { RouterModule } from '@angular/router';
-import { NxWelcomeComponent } from './nx-welcome.component';
+import { Component } from '@angular/core'
+import { RouterModule } from '@angular/router'
+import { NxWelcomeComponent } from './nx-welcome.component'
 
 @Component({
   standalone: true,
   imports: [NxWelcomeComponent, RouterModule],
   selector: 'angular-monorepo-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'pet-clinic';
+  title = 'pet ' + '' + 'fasfa' + '' + '' + '' + 'safsfasf' + '' + '' + '' + '' + '' + '' + 'sfas' + '-clinic'
 }
